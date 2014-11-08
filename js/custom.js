@@ -8,6 +8,8 @@ jQuery('input,textarea').blur(function(){
 });	
 /* Place holder end */
 
+new WOW().init();
+
 $(function(){
 	$(window).load(function(){
 		$('.spinner').fadeOut(500);
@@ -83,7 +85,6 @@ jQuery(document).ready(function(){
 	});
 });  // window scroll Ends
 
-new WOW().init();
 
 /* Circle Text */
 $(function(){
