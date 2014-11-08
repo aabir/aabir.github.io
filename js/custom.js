@@ -8,8 +8,6 @@ jQuery('input,textarea').blur(function(){
 });	
 /* Place holder end */
 
-new WOW().init();
-
 $(function(){
 	$(window).load(function(){
 		$('.spinner').fadeOut(500);
@@ -31,6 +29,11 @@ $(function(){
 			nav.hide(500);
 		}
 	});
+});
+
+/* Animation Init */
+$(function(){
+	new WOW().init();
 });
 
 /* Menu Scroll */
