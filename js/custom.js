@@ -12,6 +12,10 @@ $(function(){
 	$(window).load(function(){
 		$('.spinner').fadeOut(500);
 		$('#body').css('display', 'block');
+		
+		$('.load-after').delay(3000).animate({ // Wait to finish hello animation
+			opacity: 1	
+		}, 5000)
 		/* Animation WOW */
 		new WOW().init();
 	});
