@@ -270,7 +270,7 @@ a:hover svg line {
 } 
 
 #about .container p {
-	text-align: left; 
+	text-align: justify; 
 }
   
 .container h2, .container h1 {
